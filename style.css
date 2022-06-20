@@ -3,8 +3,76 @@
     padding: 0px;
 }
 
-body, html {
+body, html{
+
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #181818;
+    min-height: 100vh;
+}
+
+#container {
+    border: 5px solid rgb(62, 166, 255);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+}
+
+#screen {
+    width: auto;
+    height: 120px;
+    background-color: #eee;
+    border: 6px solid black;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 1px;
+    flex: 1;
+}
+
+#buttons div {
+    display: flex;
+    gap: 1px;;
+    flex: 1;
+}
+
+button {
+    flex: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition-duration: 0.4;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.hov:hover {
+    background-color: white;
+    color: black;
+}
+
+.s9,.s8,.s7,.s6,.s5,.s4,.s3,.s2,.s1,.s0,.. {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.equal { flex: 2}
+
+.division,.minus,.plus,.times,.equal {
+    background-color:  #4CAF50;
+    color: white;
+}
+
+.clear,.sign,.percentage {
+    background-color: #008CBA;
+    color: white;
 }
