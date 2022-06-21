@@ -171,6 +171,4 @@ function processor(btn) {
             data.textContent = holder[0] +" "+action +" "+ holder[1];
         }
     }
-   // screen.appendChild(data);
-    console.table(holder);
 }
