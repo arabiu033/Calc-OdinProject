@@ -25,6 +25,10 @@ body, html{
     height: 120px;
     background-color: #eee;
     border: 6px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    font-size: 36px;
 }
 
 #buttons {
@@ -60,7 +64,7 @@ button {
     color: black;
 }
 
-.s9,.s8,.s7,.s6,.s5,.s4,.s3,.s2,.s1,.s0,.. {
+.s9,.s8,.s7,.s6,.s5,.s4,.s3,.s2,.s1,.s0,.dot {
     background-color: #e7e7e7;
     color: black;
 }
